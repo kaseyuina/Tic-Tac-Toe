@@ -2,7 +2,7 @@
 field = [" ", " ", " "], [" ", " ", " "], [" ", " ", " "]
 
 '''
-Field visual
+Field visual sample
      A   B   C 
 1      |   |
     ---|---|---
@@ -114,6 +114,7 @@ while completed == False:
         break
     if draw == True:
         show_field()
-        print("******")
-        print("Draw!!")
+        print("***********")
+        print("Draw game!!")
+        print()
         completed = True
